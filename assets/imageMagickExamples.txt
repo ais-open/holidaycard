@@ -1,0 +1,8 @@
+
+montage text_[1-4].png -crop 563x60+19+360 -geometry 563x60+0+0 -tile x1 -background transparent -bordercolor transparent -border 18 sprites_text.png
+
+montage flags.png columns.png barn.png hug.png skate.png -geometry 563x431 -tile 2x3 -background white -bordercolor white -border 9 pics.jpg
+
+NOTE this produces "borders" of 18 pixels (actually 9 border + 9 padding, kinda dumb). 
+
+Text sprite map dimensions should be: w:2396 (563x4 + 18*4) 

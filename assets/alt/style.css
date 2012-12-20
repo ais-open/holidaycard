@@ -1,0 +1,93 @@
+* {margin: 0; padding: 0;}
+
+img {
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+body {overflow: hidden;}
+
+.frame {background-color: white; z-index: 100; position: absolute;}
+
+#innerFrame {
+   background-image: url("images/frame.png");   
+   position: absolute; 
+   top: 50px; 
+   left: 50px; 
+   width: 600px; 
+   height: 500px;
+   z-index: 9000;
+}
+
+#main {
+   position: absolute; 
+   top: 50px; left: 50px; 
+   width: 600px; 
+   height: 500px; 
+   overflow: hidden;
+   }
+   
+#slides {
+   position: absolute; 
+   width: 1270px; 
+   height: 1509px; 
+   left: 0px;
+   top: 0px; 
+   overflow: hidden;
+}
+
+#text {
+   background-image: url("images/sprites_text.png");
+   position: absolute; 
+   width: 2396px; 
+   height: 44px; 
+   left: 0px;
+   top: 360px; 
+   overflow: hidden;
+}
+
+#logo {
+   width: 199px;
+   height: 83px;
+   position:absolute; 
+   top: 30px; 
+   left: 30px; 
+   display: block;
+}
+
+#links {
+	position: absolute;
+	width: 600px;
+	top: 300px;
+	text-align: center;
+	left: -9999px; /* normal is 0px, -9999 for off-screen */
+}
+
+#links a {
+	color: #31668b;
+	font-size: 12px;
+	font-weight: 600; /* semi bold */
+	font-family: Helvetica, Ariel, sans-serif;
+	margin: 6px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+span.arrows {
+	letter-spacing: 1.5px;
+}
+
+#top {top: 0; left: 0; width: 100%; height: 50px;}
+
+#left {top: 50px; left: 0;  width: 50px; height: 500px;}
+
+#right {top: 50px; left: 652px; right: 0px; height: 500px;}
+
+#bottom {top: 552px; left: 0; width: 100%; bottom: 0px;}
+
+
+
+
